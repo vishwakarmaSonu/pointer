@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+       cout<<"ppointer"<<endl;
+       int i =10;
+       int *p=&i;
+       int *q = p;///address storage
+       cout<<"the value of Q"<<q<<endl;
+       cout<<sizeof(p)<<endl;
+       cout<<i<<endl;
+       cout<<*p<<endl;
+       
+       
+       
+       i++;
+       cout<<i<<endl;
+       cout<<*p<<endl;
+       
+       int a=i;
+       a++;
+       int b=*p;
+       b++;
+       
+       cout<<a<<endl<<b<<endl;
+       (*p)++;
+       
+         cout<<i<<endl;
+       cout<<*p<<endl;
+       
+       
+       
+       
+       
+       
+       
+
+    return 0;
+}
